@@ -1,0 +1,1 @@
+web: gunicorn process_data:app --log-file=logs.txt --bind 0.0.0.0:$PORT
